@@ -1,0 +1,70 @@
+body {
+  background: #ddf !important;
+}
+
+.header-panel {
+  background: linear-gradient(50deg, #ccf, #48a);
+  border: 1px solid royalblue;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.30), 0 20px 20px rgba(0,0,0,0.15);
+  padding: 10vh;
+  margin-top: 10vh;
+  border-radius: 10px;
+}
+
+h1 {
+  text-shadow: 2px 4px 5px rgba(0,0,0,0.5);
+}
+
+nav {
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.nav-width {
+  width: 100%;
+}
+
+#welcome-section {
+}
+
+#signin2 {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#signin2:active {
+  border: 0;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+#project-div {
+  margin-top: 30px;
+}
+
+.project-tile {
+  background: white;
+  padding: 10px;
+  border: 1px solid #aaf;
+  box-shadow: -2px -2px rgba(0,0,0,0.1), 2px 2px rgba(0,0,0,0.2);
+  margin: 10px 10px;
+}
+
+a.jumbo-link {
+  color: #00f !important;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 815px) {
+  h1 {
+    padding-top: 30px;
+    font-size: 2em !important;
+  }
+  
+  .nav-button {
+    font-size: 0.8em !important;
+  }
+}
