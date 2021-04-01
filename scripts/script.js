@@ -30,7 +30,6 @@ function setUserName() {
 if(localStorage.getItem("name")) {
     let storedName = localStorage.getItem("name");
     myHeading1.textContent = storedName;
-    myHeading2.textContent = storedName;
 }
 
 // set functions for signin button clicks
