@@ -2,7 +2,6 @@
 let myButton1 = document.querySelector("#signin1");
 let myButton2 = document.querySelector("#signin2");
 let myHeading1 = document.querySelector("#username1");
-let myHeading2 = document.querySelector("#username2");
 
 // TUTORIAL: https://www.geeksforgeeks.org/how-to-strip-out-html-tags-from-a-string-using-javascript/
 // regular expression to identify HTML tags in the input string, replacing the identified tag with a null string.
@@ -24,7 +23,6 @@ function setUserName() {
     myName = removeTags(myName);
     localStorage.setItem("name", myName);
     myHeading1.textContent = myName;
-    myHeading2.textContent = myName;
 }
 
 // TUTORIAL: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
